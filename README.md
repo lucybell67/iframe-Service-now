@@ -7,4 +7,4 @@ link to site: https://lucybell67.github.io/iframe-Service-now/
 test
 
 
-<iframe width:100% height:100% src="http://www.service-now.com" scrolling="yes"></iframe>
+<iframe height="500px" width="500px src="http://www.service-now.com" scrolling="no"></iframe>
