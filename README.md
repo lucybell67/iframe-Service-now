@@ -38,7 +38,3 @@ test
         });
 
 </script>
-
-
-<iframe id="IncidentL" src="https://cloud.oracle.com" width="800" height="600" ></iframe>
-<script> document.body.scroll=”no”;</script>
