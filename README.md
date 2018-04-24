@@ -4,6 +4,13 @@ link to site: https://lucybell67.github.io/iframe-Service-now/
 
 test
 
-<body><iframe id="IncidentL" src="https://dev48352.service-now.com/incident_list.do?sysparm_query=active=true^caller_id=javascript:gs.getUserID()" width="800" height="600" ></iframe>
-<script> document.body.scroll=”no”;</script>
-</body>
+<a href="https://dev48352.service-now.com/incident_list.do?sysparm_query=active=true^caller_id=javascript:gs.getUserID()" class="link1">Example</a>
+<iframe id="iframe1" src="about:blank" width="100%" scrolling="no"></iframe>
+<script>
+    var myLink = $('.link1');
+    myLink.on('click', function(e){
+        e.preventDefault(myLink);
+        $('#iframe1').attr('src', myLink.attr('href'));
+    });
+    iFrameResize();
+</script>
