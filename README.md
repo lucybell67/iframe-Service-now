@@ -10,7 +10,7 @@ test
     var myLink = $('.link1');
     myLink.on('click', function(e){
         e.preventDefault(myLink);
-        $('#iframe1').attr('src', myLink.attr('href'));
+        $('#iframe1').attr('src', myLink.attr('https://dev48352.service-now.com/incident_list.do?sysparm_query=active=true^caller_id=javascript:gs.getUserID()'));
     });
     iFrameResize();
 </script>
