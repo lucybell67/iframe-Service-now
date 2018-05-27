@@ -2,5 +2,4 @@
 simple web site
 link to site: https://lucybell67.github.io/iframe-Service-now/
 
-<apex:iframe src="https://ap2.salesforce.com/001" scrolling="true"/>
-
+<iframe name="google-disable-x-frame-options" src="https://google.com"></iframe>
